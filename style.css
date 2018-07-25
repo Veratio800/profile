@@ -1,0 +1,142 @@
+
+body {
+  background-color: rgb(254, 241, 229);
+  font-family: "Sans-Serif";
+  color: rgba(44, 44, 44);
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: lighter
+
+}
+
+p {
+  font-family: "Georgia";
+    text-align: justify;
+}
+
+h1, h2, h3 {
+  color: rgb(244, 107, 66);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4;
+}
+
+th {
+  font-size: 22px;
+  color: rgb(144, 144, 144);
+  font-weight: lighter;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.btn-orange {
+  background-color: rgba(244, 107, 66);
+  color: rgba(10, 10, 10);
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-orange:hover {
+  background-color: rgb(144, 144, 144);
+  color: white;
+}
+
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(144, 144, 144);
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  color: rgb(144, 144, 144);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(244, 107, 66);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 22px;
+  padding-left: 0px;
+  list-style: none;
+  font-size: 20px;
+}
+
+td > p {
+  color: rgb(116, 116, 116);
+}
+
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #cccccc;
+}
+.card {
+  background-color: rgb(254, 254, 254);
+  border: 1px;
+  border-radius: 4px;
+  box-shadow: 3px;
+  padding: 40px;
+  margin: 10px;
+}
+
+/* -------- MEDIA QUERIES --------*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
